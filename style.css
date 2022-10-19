@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --heading: #4f4f4f;
+  --heading2: #828282;
+  --bg: #f0f0f0;
+  --white: #fff;
+  --shadow: #8080803a;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+  font-size: 14px;
+  background: var(--bg);
+}
+
+h1 {
+  color: var(--heading);
+}
+
+p {
+  color: var(--heading2);
+}
+
+.profile {
+  background: var(--white);
+  padding: 1.5rem;
+  box-shadow: 0 0 5px var(--bg);
+  border-radius: 10px;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+.profile__img {
+  width: 100%;
+  border-radius: 15px;
+  height: 367.15px;
+  object-fit: cover;
+}
+
+.profile__content__header {
+  margin: 0.5em 0;
+}
+
+.profile__content__contact {
+  margin: 0.8rem 0;
+}
+
+.profile__content__contact icon {
+  display: inline-block;
+  width: 20px;
+  margin-right: 10px;
+}
+.profile__content__contact p {
+  display: flex;
+}
